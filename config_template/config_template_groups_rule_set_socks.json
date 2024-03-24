@@ -17,11 +17,7 @@
     "store_fakeip": false
     }
   },
-  "dns": {
-    "servers": [],
-    "final": "localDns",
-    "strategy": "ipv4_only"
-  },
+  "dns": {},
   "inbounds": [
     {
       "type": "socks",
