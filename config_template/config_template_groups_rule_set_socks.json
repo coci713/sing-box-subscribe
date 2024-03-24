@@ -17,7 +17,9 @@
     "store_fakeip": false
     }
   },
-  "dns": {},
+  "dns": {
+    "servers": []
+  },
   "inbounds": [
     {
       "type": "socks",
