@@ -76,10 +76,15 @@
     {
       "type": "socks",
       "tag": "socks-in",
-      "listen": "127.0.0.1",
+      "listen": "::",
       "listen_port": 2080,
-      "sniff": true,
-      "users": []
+      "tcp_fast_open": true,
+      "tcp_multi_path": false,
+      "udp_fragment": true,
+      "sniff": false,
+      "sniff_override_destination": false,
+      "sniff_timeout": "300ms",
+      "udp_timeout": 300
     }
   ],
   "outbounds": [
